@@ -1,7 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
-
 .container-fluid {
     padding: 0;
     width: 100%;
@@ -49,6 +45,7 @@ html {
     padding-right: 6vw;
     position: relative; /*required by scrollspy*/
     height: 100vh;
+    scroll-behavior: smooth;
     overflow-y: scroll;
 }
 
