@@ -1,1 +1,198 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bing-Yuan Hsieh</title>
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3 col-left affix">
+        <div class="affix profile">
+          <div class="portrait">
+            <img alt="Bing-Yuan Hsieh" src="./assets/profile.jpg">
+          </div>
+          <h4 class="name">Bing-Yuan Hsieh</h4>
+          <div class="navbar-default" id="navbar">
+            <ul class="nav flex-column nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#section-abouts">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section-projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section-contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-9 col-right" data-spy="scroll" data-target="#navbar">
+        <section id="section-abouts">
+          <h1 class="hello">Hello!</h1>
+          <p>My name is Bing-Yuan Hsieh. I study Statistics and Computer Science at the University of Illinois at Urbana
+            Champaign enthusiastic about Natural Language Processing, Computer Vision, and Design.</p>
+          <p>In my free time, I enjoy learning French, tasting cuisines from all countries, and mountain-climbing.</p>
+          <a target="_blank" rel="noopener noreferrer" href="./assets/resume-bing-yuan-hsieh.pdf">
+            <button type="button" class="btn btn-primary">View My Résumé</button>
+          </a>
+        </section>
+
+        <section id="section-projects">
+          <h2 class="section-title">Past Projects</h2>
+          <div class="card-columns project-columns">
+            <div class="card project-card">
+              <img class="card-img-top" src="./assets/projects/cover_covid-tracker.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">COVID-19 Visualization</h5>
+                <p class="card-text">A real-time COVID-19 visualization developed with React.js and Material-UI,
+                  featuring a modern and intuitive interface.</p>
+              </div>
+              <div class="card-footer">
+                <a target="_blank" rel="noopener noreferrer" href="https://covid-19-tracker-95808.web.app/"
+                  class="btn btn-primary">Open</a>
+              </div>
+            </div>
+            <div class="card project-card">
+              <img class="card-img-top" src="./assets/projects/cover_google-scholar.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Google Scholar Explorer</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/P4OHV0HHhzk"
+                  class="btn btn-primary">Demo</a>
+              </div>
+            </div>
+            <div class="card project-card">
+              <img class="card-img-top" src="assets/projects/cover_sketchify.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Sketchify</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                  additional content. This card has even longer content than the first to show that equal height
+                  action.</p>
+              </div>
+            </div>
+            <div class="card project-card">
+              <img class="card-img-top" src="./assets/projects/cover_cs445-proj2.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Image Quilting and Texture Transfer</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                  additional content. This card has even longer content than the first to show that equal height
+                  action.</p>
+              </div>
+              <div class="card-footer">
+                <a target="_blank" rel="noopener noreferrer" href="https://byhsieh2.web.illinois.edu/cs445/proj2/"
+                  class="btn btn-primary">Details</a>
+              </div>
+            </div>
+            <div class="card project-card">
+              <img class="card-img-top" src="./assets/projects/cover_cs445-proj3.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Gradient Domain Image Editing</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                  additional content. This card has even longer content than the first to show that equal height
+                  action.</p>
+              </div>
+              <div class="card-footer">
+                <a target="_blank" rel="noopener noreferrer" href="https://byhsieh2.web.illinois.edu/cs445/proj3/"
+                  class="btn btn-primary">Details</a>
+              </div>
+            </div>
+            <div class="card project-card">
+              <img class="card-img-top" src="./assets/projects/cover_cs445-proj5.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Video to Panorama Generation</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                  additional content. This card has even longer content than the first to show that equal height
+                  action.</p>
+              </div>
+              <div class="card-footer">
+                <a target="_blank" rel="noopener noreferrer" href="https://byhsieh2.web.illinois.edu/cs445/proj5/"
+                  class="btn btn-primary">Details</a>
+              </div>
+            </div>
+            <div class="card project-card">
+              <img class="card-img-top" src="./assets/projects/cover_cs445-proj4.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Image-Based Lighting</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                  additional content. This card has even longer content than the first to show that equal height
+                  action.</p>
+              </div>
+              <div class="card-footer">
+                <a target="_blank" rel="noopener noreferrer" href="https://byhsieh2.web.illinois.edu/cs445/proj4/"
+                  class="btn btn-primary">Details</a>
+              </div>
+            </div>
+            <div class="card project-card">
+              <img class="card-img-top" src="./assets/projects/cover_cs445-proj1.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Hybrid Images</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                  additional content. This card has even longer content than the first to show that equal height
+                  action.</p>
+              </div>
+              <div class="card-footer">
+                <a target="_blank" rel="noopener noreferrer" href="https://byhsieh2.web.illinois.edu/cs445/proj1/"
+                  class="btn btn-primary">Details</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="section-contact">
+          <h2 class="section-title">Contact Me</h2>
+          <p>
+            You can email me at
+            <a href="byhsieh2@illinois.edu">byhsieh2@illinois.edu</a>
+            or find me on
+            <a href="https://www.linkedin.com/in/bing-yuan-hsieh-a755b06b/">LinkedIn</a>,
+            <a href="https://www.instagram.com/hsiehbytw/">Instagram</a>, or
+            <a href="https://www.facebook.com/ericxie20000430">Facebook</a>!
+          </p>
+        </section>
+        <div class="links">
+          <a target="_blank" href="https://github.com/hsiehby/">
+            <i class="fa fa-github fa-lg"></i>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/bing-yuan-hsieh-a755b06b/">
+            <i class="fa fa-linkedin fa-lg"></i>
+          </a>
+          <a target="_blank" href="https://www.instagram.com/hsiehbytw/">
+            <i class="fa fa-instagram fa-lg"></i>
+          </a>
+          <a target="_blank" href="https://www.facebook.com/ericxie20000430/">
+            <i class="fa fa-facebook fa-lg"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</body>
+
+</html>
